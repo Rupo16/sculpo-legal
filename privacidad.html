@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Política de privacidad · Sculpo</title>
+<title>Política de privacidad · Sculpio</title>
 <style>
   :root { color-scheme: light dark; }
   body {
@@ -26,16 +26,17 @@
 </style>
 </head>
 <body>
-<nav><a href="index.html">← Sculpo</a></nav>
+<nav><a href="index.html">← Sculpio</a></nav>
 <h1>Política de privacidad</h1>
-<p class="updated">Última actualización: 31 de agosto de 2026</p>
-<p class="intro">En Sculpo tu cara y tus hábitos son tuyos. La app funciona sin cuentas ni servidor propio: tus fotos, tus escaneos y tu progreso se guardan únicamente en tu iPhone. Solo el estado y el historial de tu suscripción se validan con Apple y RevenueCat. Esta política explica, sin rodeos, qué datos se tratan, dónde acaban y cómo puedes borrarlos.</p>
+<p class="updated">Última actualización: 17 de septiembre de 2026</p>
+<p class="intro">En Sculpio tu cara y tus hábitos son tuyos. La app funciona sin cuentas: tus selfies, tus escaneos faciales y tu progreso se guardan únicamente en tu iPhone. Solo dos cosas salen del dispositivo: el estado de tu suscripción, que se valida con Apple y RevenueCat, y —únicamente si tú lo autorizas de forma expresa— las fotos de comida que decides analizar con inteligencia artificial. Esta política explica, sin rodeos, qué datos se tratan, dónde acaban y cómo puedes borrarlos o retirar tu permiso.</p>
 <h2>1. Quién es el responsable</h2>
 <p>El responsable del tratamiento es Emilio Olmos Rupérez, con NIF 21790918M y domicilio en Calle José Zorrilla 3, Escalera 2, Piso 3.º E, 03801 Alcoi/Alcoy (Alicante), España.</p>
 <p>Para cualquier cuestión relacionada con tus datos puedes escribir a sculpocontacto@gmail.com.</p>
 
 <h2>2. El principio: tus datos personales se quedan en tu dispositivo</h2>
-<p>Sculpo no tiene cuentas de usuario ni servidores propios. Toda la información personal que generas —respuestas del cuestionario inicial, escaneos faciales, fotos, comidas registradas, agua, rutinas completadas y racha— se almacena en el almacenamiento privado de la app dentro de tu iPhone.</p>
+<p>Sculpio no tiene cuentas de usuario ni guarda tus datos en un servidor. Toda la información personal que generas —respuestas del cuestionario inicial, escaneos faciales, fotos, comidas registradas, agua, rutinas completadas y racha— se almacena en el almacenamiento privado de la app dentro de tu iPhone.</p>
+<p>La única excepción es el análisis de comida con inteligencia artificial, que requiere enviar la foto del plato fuera del dispositivo y que solo funciona con tu permiso expreso (apartado 5).</p>
 <p>Si borras la app, esos datos locales desaparecen contigo. El historial técnico de compra permanece en Apple y RevenueCat para validar o restaurar la suscripción, pero no contiene tus fotos, hábitos ni resultados.</p>
 
 <h2>3. Qué datos se tratan y para qué</h2>
@@ -44,7 +45,8 @@
 <li>Respuestas del cuestionario inicial (edad aproximada, objetivos, hábitos): para construir tu plan y tus recomendaciones. Se guardan en el dispositivo.</li>
 <li>Fotos de tu rostro (selfies de escaneo): para generar tu puntuación de deshinchado y poder comparar tu evolución. Se guardan en el dispositivo.</li>
 <li>Puntuaciones y métricas faciales derivadas de esas fotos: para tu historial y tus gráficos. Se guardan en el dispositivo.</li>
-<li>Fotos de comidas y su análisis: para estimar el impacto de cada comida en la hinchazón. Ver el apartado 5, porque es el único caso en el que un dato puede salir del dispositivo.</li>
+<li>Fotos de comidas y su análisis: para identificar lo que has comido y estimar su impacto en la hinchazón. Con tu permiso expreso, la foto se envía a nuestro proveedor de inteligencia artificial (apartado 5); el resultado se guarda en el dispositivo.</li>
+<li>Tu perfil alimentario (los desencadenantes que marcas en «¿Qué te hincha?»): para señalarlos en cada comida. Se guarda en el dispositivo y acompaña a la foto cuando autorizas el análisis con IA.</li>
 <li>Registro de agua, rutinas completadas y tareas diarias: para tu progreso y tu racha. Se guardan en el dispositivo.</li>
 <li>Preferencias de la app (objetivo de agua, desencadenantes alimentarios, permisos): para que la app se comporte como quieres.</li>
 <li>Historial de compra y estado de la suscripción (producto, fechas, estado, tienda, moneda y un identificador anónimo de RevenueCat): para cobrar, validar, restaurar y analizar el funcionamiento comercial de la suscripción. No incluye tus datos de pago.</li>
@@ -54,41 +56,45 @@
 <p>Puedes borrarlas en cualquier momento desde Configuración → Borrar todos mis datos, o eliminando la app.</p>
 
 <h2>5. El análisis de comida y la inteligencia artificial</h2>
-<p>El análisis de comida es la única función que puede enviar información fuera de tu dispositivo. Cuando fotografías un plato y la función de IA está activada, esa imagen se envía cifrada a nuestro proveedor de inteligencia artificial (Anthropic, PBC) con un único fin: identificar los alimentos y estimar su impacto en la hinchazón. La respuesta vuelve a tu iPhone y ahí se queda.</p>
-<p>Nuestro proveedor trata esa imagen para devolver el resultado. Por defecto no usa los datos de la API comercial para entrenar sus modelos salvo aceptación expresa, pero puede conservar entradas y salidas hasta 30 días y, excepcionalmente, durante más tiempo para hacer cumplir sus políticas o una obligación legal. No se envía junto a la imagen tu nombre, tu correo, tus fotos faciales ni tus puntuaciones.</p>
-<p>Si la función de IA no está activada, la app genera una estimación orientativa en el propio dispositivo y lo indica claramente en el resultado. En ese caso no sale ningún dato del iPhone.</p>
-<p>Antes de activar esta función en producción, el titular debe formalizar con Anthropic el anexo de tratamiento y las garantías aplicables a transferencias internacionales. Mientras no estén formalizados, la función debe permanecer desactivada.</p>
+<p>El análisis de comida es la única función que envía información personal fuera de tu dispositivo, y solo lo hace con tu permiso expreso. La primera vez que fotografías un plato, y siempre que no haya un permiso vigente, la app te muestra una pantalla que explica qué se envía y a quién, y te da dos opciones: «Permitir y analizar» o «Ahora no». Si eliges «Ahora no», no sale ningún dato del iPhone.</p>
+<p>Qué se envía cuando lo permites: la foto de la comida (reducida de tamaño), los desencadenantes marcados en tu perfil alimentario y un identificador anónimo de tu suscripción. No se envían tu nombre, tu correo, tus selfies, tus puntuaciones faciales ni ningún otro dato de la app.</p>
+<p>A quién se envía: la petición viaja cifrada (HTTPS) a un servidor intermedio propio alojado en Cloudflare, Inc., que comprueba con RevenueCat que tienes acceso Pro y lleva la cuenta de los análisis diarios asociados a tu identificador anónimo; ese servidor no almacena la foto. Desde ahí, la foto y tu perfil alimentario se envían a Anthropic, PBC (Estados Unidos), el proveedor de inteligencia artificial que identifica los alimentos y estima su impacto en la hinchazón. La respuesta vuelve a tu iPhone y ahí se queda.</p>
+<p>Conservación y uso por el proveedor: según las condiciones comerciales de su API, Anthropic no utiliza los datos enviados para entrenar sus modelos y puede conservar entradas y salidas hasta 30 días —y excepcionalmente más tiempo para hacer cumplir sus políticas o una obligación legal—. Anthropic se compromete contractualmente a proteger esos datos con medidas técnicas y organizativas y a cumplir el marco de transferencias internacionales aplicable (cláusulas contractuales tipo de la UE).</p>
+<p>Cómo retirar el permiso: en Configuración → «Análisis de comida con IA» puedes retirarlo en cualquier momento. Desde ese instante la app no envía más fotos; lo ya enviado se rige por el plazo de conservación indicado. Si más adelante cambiamos el destinatario, los datos enviados o la finalidad, te lo volveremos a pedir antes del siguiente envío.</p>
+<p>Sin permiso, o si el análisis remoto falla, la app genera una estimación orientativa en el propio dispositivo y lo indica claramente en el resultado con la etiqueta «Análisis de ejemplo».</p>
 
 <h2>6. Base legal del tratamiento</h2>
 <p>Tratamos tus datos para poder prestarte el servicio que nos pides, es decir, para ejecutar el contrato que aceptas al usar la app (art. 6.1.b del RGPD).</p>
 <p>Las fotos de tu rostro y la información sobre tu alimentación e hidratación pueden considerarse datos relativos a la salud. Por eso su tratamiento se basa además en tu consentimiento explícito (art. 9.2.a del RGPD), que otorgas al tomar tu primera foto y que puedes retirar en cualquier momento borrando tus datos desde Configuración.</p>
+<p>El envío de fotos de comida al proveedor de inteligencia artificial se basa en un consentimiento específico y separado (art. 6.1.a y 9.2.a del RGPD), que prestas en la pantalla «Analizar con inteligencia artificial» y que puedes retirar desde Configuración → «Análisis de comida con IA» sin que ello afecte al resto de funciones de la app.</p>
 
 <h2>7. Con quién se comparte</h2>
 <p>No vendemos tus datos, no los cedemos con fines publicitarios y no incorporamos redes de anuncios ni seguimiento entre apps. RevenueCat ofrece únicamente analítica de compras y suscripciones; no recibe tus fotos, tus hábitos ni tus resultados.</p>
 <ul>
 <li>Apple: gestiona el pago y la renovación de tu suscripción. Nosotros no vemos tu tarjeta ni tus datos de pago; solo sabemos si tu suscripción está activa.</li>
-<li>RevenueCat, Inc.: valida los recibos de Apple, mantiene un historial de compra asociado a un identificador aleatorio y nos comunica si el acceso Pro está activo. Se usa sin cuenta, email, IDFA ni identificador personalizado.</li>
-<li>Anthropic, PBC: procesa únicamente las fotos de comida, y solo si la función de IA está activada (apartado 5).</li>
+<li>RevenueCat, Inc.: valida los recibos de Apple, mantiene un historial de compra asociado a un identificador aleatorio y nos comunica si el acceso Pro está activo. Se usa sin cuenta, email, IDFA ni identificador personalizado. Nuestro servidor intermedio le consulta ese mismo identificador antes de cada análisis de comida.</li>
+<li>Cloudflare, Inc.: aloja el servidor intermedio que recibe la petición de análisis de comida. Trata la foto en tránsito sin almacenarla y guarda únicamente el contador diario de análisis asociado a tu identificador anónimo.</li>
+<li>Anthropic, PBC: recibe la foto de comida y tu perfil alimentario para generar el análisis, solo si has dado tu permiso expreso (apartado 5).</li>
 <li>Autoridades públicas: solo si una obligación legal nos lo exige.</li>
 </ul>
 <h2>8. Permisos que te pide la app</h2>
 <p>La app solo solicita permisos cuando los necesita, y cada uno tiene un propósito concreto:</p>
 <ul>
-<li>Cámara: para tomar tus escaneos faciales y las fotos de tus comidas.</li>
+<li>Cámara: para tomar tus escaneos faciales y las fotos de tus comidas. Se pide solo cuando decides hacer una foto; si la deniegas, puedes seguir usando la app y elegir imágenes de la galería.</li>
 <li>Fotos: solo si eliges una imagen de tu galería en lugar de hacer una foto nueva. La app accede a la imagen que seleccionas, no a tu galería completa.</li>
 <li>Notificaciones: para recordarte tu escaneo diario, tu racha y las rutinas nuevas. Son notificaciones locales, generadas por tu propio dispositivo. Puedes desactivarlas desde los ajustes de iOS.</li>
 </ul>
 <h2>9. Cuánto tiempo se conservan</h2>
 <p>Tus datos permanecen en tu dispositivo mientras tengas la app instalada y no los borres. No hay ningún proceso automático de eliminación por nuestra parte porque no tenemos acceso a ellos.</p>
 <p>Apple y RevenueCat conservan el historial de compra durante el tiempo necesario para gestionar, validar y restaurar la suscripción y cumplir sus obligaciones legales. Puedes ejercer tus derechos sobre esos datos a través del contacto indicado en esta política.</p>
-<p>Sculpo no mantiene una copia propia en un servidor de las imágenes de comida. Si activas el análisis por IA, se aplica el plazo de conservación de Anthropic explicado en el apartado 5.</p>
+<p>Sculpio no mantiene una copia propia en un servidor de las imágenes de comida. Si autorizas el análisis con IA, se aplica el plazo de conservación de Anthropic explicado en el apartado 5; el contador diario de análisis del servidor intermedio se reinicia cada día.</p>
 
 <h2>10. Tus derechos</h2>
 <p>Como la información vive en tu dispositivo, tú tienes el control directo: puedes consultarla dentro de la app y eliminarla por completo desde Configuración → Borrar todos mis datos, o desinstalando la app.</p>
 <p>Además te asisten los derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad reconocidos por el RGPD, incluido el historial técnico de suscripción tratado por RevenueCat. Puedes ejercerlos escribiendo a sculpocontacto@gmail.com. Si consideras que no hemos atendido tu solicitud correctamente, puedes reclamar ante la Agencia Española de Protección de Datos (www.aepd.es).</p>
 
 <h2>11. Menores</h2>
-<p>Sculpo no está dirigida a menores de 14 años y no recogemos deliberadamente sus datos. Si eres el padre, la madre o el tutor de un menor que ha usado la app, escríbenos y te ayudaremos a eliminar la información.</p>
+<p>Sculpio no está dirigida a menores de 14 años y no recogemos deliberadamente sus datos. Si eres el padre, la madre o el tutor de un menor que ha usado la app, escríbenos y te ayudaremos a eliminar la información.</p>
 
 <h2>12. Seguridad</h2>
 <p>Tus datos se guardan en el área privada de la app dentro del sistema de archivos de iOS, protegida por el propio sistema operativo. Las comunicaciones con los proveedores de IA y suscripciones viajan cifradas mediante HTTPS.</p>
@@ -97,6 +103,6 @@
 <h2>13. Cambios en esta política</h2>
 <p>Si modificamos esta política, actualizaremos la fecha del encabezado y, cuando el cambio sea relevante, te avisaremos dentro de la app antes de que entre en vigor.</p>
 
-<footer>Sculpo · Contacto: <a href="mailto:sculpocontacto@gmail.com">sculpocontacto@gmail.com</a></footer>
+<footer>Sculpio · Contacto: <a href="mailto:sculpocontacto@gmail.com">sculpocontacto@gmail.com</a></footer>
 </body>
 </html>
